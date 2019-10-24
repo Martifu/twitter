@@ -8,45 +8,44 @@ html(land="en")
         link(rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
         link(rel="stylesheet" href="css/estilosTwitter.css")
     body
-        nav.navbar.navbar-expand-md.navbar-dark.fixed-left
-            a
-                img.logo(src="img/logo.png" width="20px" height="20px")
-            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
-                span.navbar-toggler-icon
-            #navbarsExampleDefault.collapse.navbar-collapse
-                ul.navbar-nav
-                    li.nav-item
-                        button.nav-link
+        div.container-fluid
+            div.row
+                div.col-3(style="border-right: 0.5mm solid #ffffff; height:700px")
+                    div.col-12
+                        img.logo(src="img/logo.png" width="20px" height="20px")
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/home.svg" width="60px" height="24px")
                             | Inicio
-                    li.nav-item
-                        button.nav-link
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/numeral.svg" width="60px" height="24px")
                             | Explorar
-                    li.nav-item
-                        button.nav-link
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/notificacion.svg" width="60px" height="24px")
                             | Notificaciones
-                    li.nav-item
-                        button.nav-link
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/mensaje.svg" width="60px" height="24px")
                             | Mensajes
-                    li.nav-item
-                        button.nav-link
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/guardado.svg" width="60px" height="24px")
                             | Guardado
-                    li.nav-item
-                        button.nav-link
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/lista.svg" width="60px" height="24px")
                             | Listas
-                    li.nav-item
-                        button.nav-link Perfil
-                    li.nav-item
-                        button.nav-link
+                    div.col-12
+                        button.fondobotones Perfil
+                    div.col-12
+                        button.fondobotones
                             img.colorsvg(src="img/opciones.svg" width="60px" height="28px")
                             | Más opciones
-                    Button.btn.btn-twitter-nav Twittear
-        div
-            block content
+                    div.col-12
+                        Button.btn.btn-twitter-nav Twittear
+                div.col-9
+                    block content
     script(src="js/bootstrap.min.js")
     script(src="js/popper.min.js")
