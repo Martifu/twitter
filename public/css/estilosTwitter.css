@@ -1,0 +1,157 @@
+body {
+    padding-top: 90px;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        margin-left: 232px;
+        background: #141f27 ;
+    }
+}
+
+.navbar.fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background: #141f27;
+    border-right: 0.2mm solid #5a6268;
+}
+
+@media (min-width: 768px) {
+    .navbar.fixed-left {
+        bottom: 0;
+        width: 355px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+    .navbar.fixed-left .navbar-collapse {
+        flex-grow: 0;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item  {
+        width: 100%;
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item button {
+        margin-left: 40px;
+        font-size: 21px;
+        font-stretch: 100%;
+        color: white;
+        background: transparent;
+        border: 0;
+        padding: 15px;
+        font-weight: 700;
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item button:hover {
+        border-radius: 80px 80px 80px 80px;
+        border: 0px solid #000000;
+        background: rgba(26, 141, 194, 0.23);
+        color: #1a8dc2;
+        transition: 0.2s;
+
+    }
+    .colorsvg{
+        fill: rgb(96, 240, 255);
+        stroke: rgb(96, 240, 255) ;
+    }
+    .btn-twitter-nav
+    {
+        border-radius: 71px 71px 71px 71px;
+        background: #28b6f9;
+        color: white;
+        font-weight: 600;
+        height: 50px;
+        width: 220px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .btn-twitter-nav:hover
+    {
+        background: rgb(78, 171, 184);
+        color: white;
+    }
+    .logo
+    {
+        margin-left:60px;
+        width: 45px;
+        height: 45px;
+    }
+    .logo:hover
+    {
+        border-radius: 71px 71px 71px 71px;
+        -moz-border-radius: 71px 71px 71px 71px;
+        -webkit-border-radius: 71px 71px 71px 71px;
+        border: 0px solid #000000;
+        background: rgba(26, 141, 194, 0.23);
+        color: #1a8dc2;
+        transition: 0.2s;
+    }
+
+}
+.div-grid
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: static;
+}
+.backgroundivs
+{
+    background: transparent;
+    color:white;
+}
+.backgroundivsborder
+{
+    border-bottom: 0.2mm solid #5a6268;
+    border-right: 0.2mm solid #5a6268;
+
+}
+.sinbordefondo {
+    background-color: transparent;
+    border: 0;
+}
+
+.fondobotones
+{
+    background: transparent;
+    border: 0;
+}
+
+.fondobotones:hover
+{
+    border-radius: 80px 80px 80px 80px;
+    border: 0px solid #000000;
+    background: rgba(26, 141, 194, 0.23);
+    color: #1a8dc2;
+    transition: 0.2s
+}
+.btn-twitter
+{
+    border-radius: 71px 71px 71px 71px;
+    background: #28b6f9;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    width: 80px;
+    border: 0px solid
+}
+.btn-twitter:hover
+{
+    background: rgb(78, 171, 184);
+    color: white;
+}
