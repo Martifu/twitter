@@ -1,75 +1,64 @@
 doctype html
-head
-    meta(charset='utf-8')
-    meta(name='viewport' content='width=device-width, initial-scale=1')
-    title Laravel
-    // Fonts
-    link(href='https://fonts.googleapis.com/css?family=Nunito:200,600' rel='stylesheet')
-    // Styles
-    style.
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-        .full-height {
-            height: 100vh;
-        }
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-        .position-ref {
-            position: relative;
-        }
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-        .content {
-            text-align: center;
-        }
-        .title {
-            font-size: 84px;
-        }
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-        .m-b-md {
-            margin-bottom: 30px;
-        }
-.flex-center.position-ref.full-height
-    |
-    .top-right.links
-        |
-        a(href="{{ url('/home') }}") Home
-        |
-        a(href="{{ route('login') }}") Login
-        |
-        a(href="{{ route('register') }}") Register
-        |
-        |
-    |
-    .content
-        .title.m-b-md
-            | Laravel
-        .links
-            a(href='https://laravel.com/docs') Docs
-            a(href='https://laracasts.com') Laracasts
-            a(href='https://laravel-news.com') News
-            a(href='https://blog.laravel.com') Blog
-            a(href='https://nova.laravel.com') Nova
-            a(href='https://forge.laravel.com') Forge
-            a(href='https://vapor.laravel.com') Vapor
-            a(href='https://github.com/laravel/laravel') GitHub
+html(land="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Log In
+        link(rel="stylesheet" href="css/bootstrap.min.css")
+        link(rel="stylesheet" href="css/login.css")
+    body
+        .row.page
+            .col-sm-6.aside.justify-content-sm-center
+
+                .items
+                ul
+                    li
+                        a
+                            img(src="img/buscar.svg" width="25px" height="25px")
+                            p.list_info  Sigue lo que te interesa.
+
+                    li
+                        a
+                            img(src="img/amigos.svg")
+                            p.list_info Estérate de lo que está hablando la gente.
+                    li
+                        a
+                            img(src="img/globe.svg")
+                            p.list_info Únete a la conversación.
+                img(src="img/twitter-svg.png").path
+            .col-sm-6.derecha
+                .row.formulario
+                    .form-group.col-sm-4
+                        input#exampleFormControlInput1.form-control(type='email' placeholder='Teléfono, corréo electrónico o usuario')
+                    .form-group.col-sm-4
+                        input#inputPassword.form-control(type='password' placeholder='Contraseña')
+                    .col-sm-3
+                        button.btn.btn-outline-primary.login-btn
+                            a(href='/Inicio') Iniciar Sesión
+                .row.presentacion
+                    .col-sm-7.offset-sm-2.pt-5.pl-5
+                        img(src="img/logo-azul.png" width="50px" height="50px").logo
+                        p.firstp Descubre lo que está pasando en el mundo en este momento
+                        br
+                        br
+                        p.secondp Únete hoy a Twitter
+                        button.btn.btn-primary.col-sm-12.reg
+                            a Regístrate
+                        button.btn.btn-outline-primary.col-sm-12.log
+                            a Iniciar Sesión
+
+
+
+
+
+
+
+
+
+
+
+
+script(src="js/bootstrap.min.js")
+script(src="js/popper.min.js")
+
