@@ -1,20 +1,6 @@
 body {
-
+    background: rgb(21, 32, 43);
 }
-
-@media (min-width: 768px) {
-    body {
-        padding-top: 0;
-    }
-}
-
-@media (min-width: 768px) {
-    body {
-        background: #141f27;
-    }
-}
-
-
 .colorsvg {
     fill: rgb(96, 240, 255);
     stroke: rgb(96, 240, 255);
@@ -37,7 +23,7 @@ body {
 }
 
 .logo {
-    margin-left: 60px;
+    margin-left: 10%;
     width: 45px;
     height: 45px;
 }
@@ -54,9 +40,8 @@ body {
 
 
 .div-grid {
-    flex: 0 0 100%;
-    max-width: 100%;
-    position: static;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .backgroundivs {
@@ -71,12 +56,13 @@ body {
 }
 
 .sinbordefondo {
-    background-color: transparent;
+    border-radius: 80px 80px 80px 80px;
+    background-color: rgb(38, 52, 66);
     border: 0;
 }
 
 .fondobotones {
-    margin-left: 40px;
+    margin-left: 10%;
     font-size: 21px;
     font-stretch: 100%;
     color: white;
@@ -107,4 +93,50 @@ body {
 .btn-twitter:hover {
     background: rgb(78, 171, 184);
     color: white;
+}
+
+#search-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-flow: row-reverse nowrap;
+    -ms-flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse nowrap;
+    width: 350px;
+}
+#search-wrapper #search {
+    background-color: rgb(38, 52, 66);
+    border: 1px solid rgb(38, 52, 66);
+    border-left: 0;
+    border-radius: 0 25px 25px 0;
+    color: #444;
+    padding: .6rem .5rem;
+    font-size: 15px;
+    font-weight: lighter;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+    width: 350px;
+    height: 40px;
+}
+#search-wrapper #search + i {
+    background-color: rgb(38, 52, 66);
+    border: 1px solid rgb(38, 52, 66);
+    border-radius: 25px 0 0 25px;
+    border-right: 0;
+    color: #777;
+    padding: .67rem .65rem;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+}
+#search-wrapper #search:focus {
+    border-color: rgb(38, 52, 66);
+    outline: none;
+}
+#search-wrapper #search:focus + i {
+    border-color: rgb(38, 52, 66);
 }

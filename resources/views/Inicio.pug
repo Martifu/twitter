@@ -1,14 +1,12 @@
 extends base
 block content
-    div.row
-        div.col-sm-7
+    div.col-sm-5.div-grid
+        div.col-sm-12.div-grid
             div.card.backgroundivs
                 div.card-body.backgroundivsborder
                     img(src="img/home.svg").float-right
                     h3(style="color:white") Inicio
-
-    div.row
-        div.col-sm-7
+        div.col-sm-12.div-grid
             div.card.backgroundivs
                 div.card-body.backgroundivsborder
                     div.row
@@ -16,21 +14,27 @@ block content
                             img(src="img/home.svg")
                         div.col-11
                             input.form-control.sinbordefondo(type="text" placeholder="¿Que estas pensando?")
-                        div(style="margin-left:60px;")
+                        div.col-1
                             button.fondobotones
                                 img(src="img/home.svg" width="30px" height="20px")
-                        div
+                        div.col-1
                             button.fondobotones
                                 img(src="img/home.svg" width="30px" height="20px")
-                        div
+                        div.col-1
                             button.fondobotones
                                 img(src="img/home.svg" width="30px" height="20px")
-                        div
+                        div.col-1
                             button.fondobotones
                                 img(src="img/home.svg" width="30px" height="20px")
                         div.col-8
                             button.float-right.btn-twitter Twittear
                             img.float-right(src="img/home.svg" width="30px" height="20px")
                             img.float-right(src="img/home.svg" width="30px" height="20px")
-
-
+    div.col-sm-3
+        div.row.align-items-center
+            div.col-1
+            div.col-md-auto
+                div#search-wrapper
+                    input#search(type='search', placeholder='Buscar en Twitter')
+                    i.fa.fa-search
+            div.col-1

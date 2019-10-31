@@ -5,12 +5,13 @@ html(land="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Twitter
-        link(rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+        link(rel="stylesheet" href="css/bootstrap.min.css")
         link(rel="stylesheet" href="css/estilosTwitter.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
     body
         div.container-fluid
             div.row
-                div.col-3(style="border-right: 0.5mm solid #ffffff; height:700px")
+                div.col-3(style="border-right: 0.2mm solid #5a6268;")
                     div.col-12
                         img.logo(src="img/logo.png" width="20px" height="20px")
                     div.col-12
@@ -44,8 +45,7 @@ html(land="en")
                             img.colorsvg(src="img/opciones.svg" width="60px" height="28px")
                             | Más opciones
                     div.col-12
-                        Button.btn.btn-twitter-nav Twittear
-                div.col-9
-                    block content
+                    Button.btn.btn-twitter-nav Twittear
+                block content
     script(src="js/bootstrap.min.js")
     script(src="js/popper.min.js")
