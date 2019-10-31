@@ -56,19 +56,46 @@ body {
 }
 
 .sinbordefondo {
-    border-radius: 80px 80px 80px 80px;
     background-color: rgb(38, 52, 66);
     border: 0;
 }
 
-.fondobotones {
+.sinbordefondotendencias {
+    margin-top: 10%;
+    border-radius: 60px 60px 60px 60px;
+    background-color: rgb(38, 52, 66);
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 120%;
+}
+
+.fondobotonesnavizq {
     margin-left: 10%;
     font-size: 21px;
     font-stretch: 100%;
     color: white;
     background: transparent;
     border: 0;
-    padding: 15px;
+    font-weight: 700;
+    padding: 3%;
+}
+.fondobotonesnavizq:hover {
+    border-radius: 80px 80px 80px 80px;
+    border: 0px solid #000000;
+    background: rgba(26, 141, 194, 0.23);
+    color: #1a8dc2;
+    transition: 0.2s
+}
+
+.fondobotones {
+    margin-left: 20%;
+    font-size: 21px;
+    font-stretch: 100%;
+    color: white;
+    background: transparent;
+    border: 0;
+    padding: 5px;
     font-weight: 700;
 }
 
@@ -82,17 +109,18 @@ body {
 
 .btn-twitter {
     border-radius: 71px 71px 71px 71px;
-    background: #28b6f9;
+    background: #1da1f2;
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     height: 40px;
     width: 80px;
     border: 0px solid
 }
 
 .btn-twitter:hover {
-    background: rgb(78, 171, 184);
+    background: #2a8cff;
     color: white;
+    transition: 0.2s;
 }
 
 #search-wrapper {
@@ -121,7 +149,7 @@ body {
     -webkit-transition: border-color .2s ease;
     transition: border-color .2s ease;
     width: 350px;
-    height: 40px;
+    height: 50px;
 }
 #search-wrapper #search + i {
     background-color: rgb(38, 52, 66);

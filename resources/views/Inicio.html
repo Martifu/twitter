@@ -12,36 +12,39 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3" style="border-right: 0.2mm solid #5a6268;">
-          <div class="col-12"><img class="logo" src="img/logo.png" width="20px" height="20px"></div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/home.svg" width="60px" height="24px">Inicio</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/numeral.svg" width="60px" height="24px">Explorar</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/notificacion.svg" width="60px" height="24px">Notificaciones</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/mensaje.svg" width="60px" height="24px">Mensajes</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/guardado.svg" width="60px" height="24px">Guardado</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/lista.svg" width="60px" height="24px">Listas</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones">Perfil</button>
-          </div>
-          <div class="col-12">
-            <button class="fondobotones"><img class="colorsvg" src="img/opciones.svg" width="60px" height="28px">Más opciones</button>
-          </div>
-          <div class="col-12"></div>
-          <Button class="btn btn-twitter-nav">Twittear</Button>
+        <div class="col-md-3" style="border-right: 0.2mm solid #5a6268;">
+          <ul class="nav flex-column">
+            <li class="nav-item"><img class="logo" src="img/logo.png" width="20px" height="20px"></li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/home.svg" width="50px" height="24px">Inicio</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/numeral.svg" width="50px" height="24px">Explorar</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/notificacion.svg" width="50px" height="24px">Notificaciones</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/mensaje.svg" width="50px" height="24px">Mensajes</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/guardado.svg" width="50px" height="24px">Guardado</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/lista.svg" width="50px" height="24px">Listas</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq">Perfil</button>
+            </li>
+            <li class="nav-item">
+              <button class="fondobotonesnavizq"><img class="colorsvg" src="img/opciones.svg" width="50px" height="24px">Más opciones</button>
+            </li>
+            <li class="nav-item">
+              <Button class="btn btn-twitter-nav">Twittear</Button>
+            </li>
+          </ul>
         </div>
-        <div class="col-sm-5 div-grid">
+        <div class="col-md-5 div-grid">
           <div class="col-sm-12 div-grid">
             <div class="card backgroundivs">
               <div class="card-body backgroundivsborder"><img class="float-right" src="img/home.svg">
@@ -58,19 +61,25 @@
                     <input class="form-control sinbordefondo" type="text" placeholder="¿Que estas pensando?">
                   </div>
                   <div class="col-1">
-                    <button class="fondobotones"><img src="img/home.svg" width="30px" height="20px"></button>
+                    <button class="fondobotones"><img src="img/fotos.svg" width="30px" height="20px"></button>
                   </div>
                   <div class="col-1">
-                    <button class="fondobotones"><img src="img/home.svg" width="30px" height="20px"></button>
+                    <button class="fondobotones"><img src="img/gif.svg" width="30px" height="20px"></button>
                   </div>
                   <div class="col-1">
-                    <button class="fondobotones"><img src="img/home.svg" width="30px" height="20px"></button>
+                    <button class="fondobotones"><img src="img/encuesta.svg" width="30px" height="20px"></button>
                   </div>
                   <div class="col-1">
-                    <button class="fondobotones"><img src="img/home.svg" width="30px" height="20px"></button>
+                    <button class="fondobotones"><img src="img/carita.svg" width="30px" height="20px"></button>
                   </div>
                   <div class="col-8">
-                    <button class="float-right btn-twitter">Twittear</button><img class="float-right" src="img/home.svg" width="30px" height="20px"><img class="float-right" src="img/home.svg" width="30px" height="20px">
+                    <div class="row float-right">
+                      <div class="col-1"><img class="float-right" src="img/agregar.svg" width="30px" height="20px"></div>
+                      <div class="col-1"><img class="float-right" src="img/circulo.svg" width="30px" height="20px"></div>
+                      <div class="col-1">
+                        <button class="btn-twitter">Twittear</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -82,10 +91,21 @@
             <div class="col-1"></div>
             <div class="col-md-auto">
               <div id="search-wrapper">
-                <input id="search" type="search" placeholder="Buscar en Twitter"><i class="fa fa-search"></i>
+                <input id="search" type="search" placeholder="Buscar en Twitter"><i class="fa fa-search" style="height: 50px"></i>
               </div>
             </div>
             <div class="col-1"></div>
+            <div class="col-md-12">
+              <div class="card sinbordefondotendencias">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item sinbordefondo">Tendencias para ti<img class="float-right fondobotones" src="img/Engrane.svg" width="34px" height="34px"></li>
+                  <li class="list-group-item sinbordefondo"><small>Tendencias México</small>
+                    <h5>Toro Neza</h5>
+                    <p>174 mil Tweets</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

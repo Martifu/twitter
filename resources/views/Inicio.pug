@@ -1,6 +1,6 @@
 extends base
 block content
-    div.col-sm-5.div-grid
+    div.col-md-5.div-grid
         div.col-sm-12.div-grid
             div.card.backgroundivs
                 div.card-body.backgroundivsborder
@@ -16,25 +16,38 @@ block content
                             input.form-control.sinbordefondo(type="text" placeholder="¿Que estas pensando?")
                         div.col-1
                             button.fondobotones
-                                img(src="img/home.svg" width="30px" height="20px")
+                                img(src="img/fotos.svg" width="30px" height="20px")
                         div.col-1
                             button.fondobotones
-                                img(src="img/home.svg" width="30px" height="20px")
+                                img(src="img/gif.svg" width="30px" height="20px")
                         div.col-1
                             button.fondobotones
-                                img(src="img/home.svg" width="30px" height="20px")
+                                img(src="img/encuesta.svg" width="30px" height="20px")
                         div.col-1
                             button.fondobotones
-                                img(src="img/home.svg" width="30px" height="20px")
+                                img(src="img/carita.svg" width="30px" height="20px")
                         div.col-8
-                            button.float-right.btn-twitter Twittear
-                            img.float-right(src="img/home.svg" width="30px" height="20px")
-                            img.float-right(src="img/home.svg" width="30px" height="20px")
+                            div.row.float-right
+                                div.col-1
+                                    img.float-right(src="img/agregar.svg" width="30px" height="20px")
+                                div.col-1
+                                    img.float-right(src="img/circulo.svg" width="30px" height="20px")
+                                div.col-1
+                                    button.btn-twitter Twittear
     div.col-sm-3
         div.row.align-items-center
             div.col-1
             div.col-md-auto
                 div#search-wrapper
                     input#search(type='search', placeholder='Buscar en Twitter')
-                    i.fa.fa-search
+                    i.fa.fa-search(style="height: 50px")
             div.col-1
+            div.col-md-12
+                div.card.sinbordefondotendencias
+                    ul.list-group.list-group-flush
+                        li.list-group-item.sinbordefondo Tendencias para ti
+                            img.float-right.fondobotones(src="img/Engrane.svg" width="34px" height="34px")
+                        li.list-group-item.sinbordefondo
+                            small Tendencias México
+                            h5 Toro Neza
+                            p 174 mil Tweets

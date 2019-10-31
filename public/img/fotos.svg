@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89.333" height="87.175" viewBox="0 0 89.333 87.175">
+  <g id="fotos" transform="translate(-62.879 -57)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(64 57)" fill="none" stroke="#1da1f2" stroke-width="6">
+      <rect width="88" height="87" rx="9" stroke="none"/>
+      <rect x="3" y="3" width="82" height="81" rx="6" fill="none"/>
+    </g>
+    <line id="Línea_1" data-name="Línea 1" y1="32" x2="32" transform="translate(65 104)" fill="none" stroke="#1da1f2" stroke-width="6"/>
+    <line id="Línea_2" data-name="Línea 2" x2="40" y2="38" transform="translate(96 104)" fill="none" stroke="#1da1f2" stroke-width="6"/>
+    <line id="Línea_3" data-name="Línea 3" y1="24" x2="24" transform="translate(104 88)" fill="none" stroke="#1da1f2" stroke-width="6"/>
+    <line id="Línea_4" data-name="Línea 4" x1="22" y1="24" transform="translate(128 88)" fill="none" stroke="#1da1f2" stroke-width="6"/>
+    <circle id="Elipse_1" data-name="Elipse 1" cx="4" cy="4" r="4" transform="translate(92 72)" fill="#1da1f2"/>
+  </g>
+</svg>

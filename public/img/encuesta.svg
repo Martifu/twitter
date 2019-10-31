@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="100" viewBox="0 0 99 100">
+  <g id="encuesta" transform="translate(-61 -245)">
+    <line id="Línea_5" data-name="Línea 5" y2="94" transform="translate(64 248)" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-width="6"/>
+    <g id="Rectángulo_2" data-name="Rectángulo 2" transform="translate(63 261)" fill="none" stroke="#1da1f2" stroke-width="6">
+      <rect width="80" height="27" rx="7" stroke="none"/>
+      <rect x="3" y="3" width="74" height="21" rx="4" fill="none"/>
+    </g>
+    <g id="Rectángulo_3" data-name="Rectángulo 3" transform="translate(62 284)" fill="none" stroke="#1da1f2" stroke-width="6">
+      <rect width="98" height="28" rx="7" stroke="none"/>
+      <rect x="3" y="3" width="92" height="22" rx="4" fill="none"/>
+    </g>
+    <g id="Rectángulo_4" data-name="Rectángulo 4" transform="translate(62 308)" fill="none" stroke="#1da1f2" stroke-width="6">
+      <rect width="66" height="25" rx="7" stroke="none"/>
+      <rect x="3" y="3" width="60" height="19" rx="4" fill="none"/>
+    </g>
+  </g>
+</svg>

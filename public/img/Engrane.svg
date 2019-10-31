@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93.908" height="94" viewBox="0 0 93.908 94">
+  <g id="Engrane" transform="translate(1.854 1.5)">
+    <rect id="Rectángulo_193" data-name="Rectángulo 193" width="91" height="91" fill="none"/>
+    <path id="Trazado_104" data-name="Trazado 104" d="M280.176,20.475a33.933,33.933,0,0,1,14.242-7.394L299.166,0h11.868l4.747,13.081a42.023,42.023,0,0,1,14.242,7.394l14.242-2.844L350.2,27.869l-9.495,10.238A31.111,31.111,0,0,1,341.3,45.5c0,2.275-.594,5.119-.594,7.394L350.2,63.131l-5.934,10.237-14.242-2.844a33.933,33.933,0,0,1-14.242,7.394L311.034,91H299.166l-4.747-13.081a42.023,42.023,0,0,1-14.242-7.394l-14.242,2.844L260,63.131l9.495-10.238A31.117,31.117,0,0,1,268.9,45.5c0-2.275.593-5.119.593-7.394L260,27.869l5.934-10.237Z" transform="translate(-260)" fill="none" stroke="#1da1f2" stroke-width="3" fill-rule="evenodd"/>
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(33 34)" fill="none" stroke="#1da1f2" stroke-width="3">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="10.5" fill="none"/>
+    </g>
+  </g>
+</svg>

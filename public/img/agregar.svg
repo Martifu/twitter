@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="87" viewBox="0 0 88 87">
+  <g id="agregar" transform="translate(-64 -57)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(64 57)" fill="none" stroke="#1da1f2" stroke-width="4">
+      <rect width="88" height="87" rx="43.5" stroke="none"/>
+      <rect x="2" y="2" width="84" height="83" rx="41.5" fill="none"/>
+    </g>
+    <line id="Línea_6" data-name="Línea 6" y2="47" transform="translate(108 78)" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-width="3"/>
+    <line id="Línea_7" data-name="Línea 7" x2="48" transform="translate(84 101)" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

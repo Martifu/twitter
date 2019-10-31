@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="87" viewBox="0 0 88 87">
+  <g id="carita" transform="translate(-64 -57)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(64 57)" fill="none" stroke="#1da1f2" stroke-width="6">
+      <rect width="88" height="87" rx="43.5" stroke="none"/>
+      <rect x="3" y="3" width="82" height="81" rx="40.5" fill="none"/>
+    </g>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="6.5" cy="6.5" r="6.5" transform="translate(90 83)" fill="#1da1f2"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="6.5" cy="6.5" r="6.5" transform="translate(114 83)" fill="#1da1f2"/>
+    <path id="Trazado_1" data-name="Trazado 1" d="M0,0S5.25,8.75,19.75,8.75,40,0,40,0" transform="translate(89 111)" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-width="6"/>
+  </g>
+</svg>
