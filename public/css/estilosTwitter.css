@@ -168,3 +168,36 @@ body {
 #search-wrapper #search:focus + i {
     border-color: rgb(38, 52, 66);
 }
+.btn-flecha{
+    background: transparent;
+    border: 0;
+    border-radius: 100%;
+    height: auto;
+    width: auto;
+}
+.btn-flecha:hover {
+    border-radius: 100%;
+    background: rgba(26, 141, 194, 0.23);
+    color: #1a8dc2;
+
+}
+.no-gutters.col {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-prof{
+    background: transparent;
+    border: 0;
+
+    height: auto;
+    width: auto;
+}
+.btn-prof:hover {
+
+    background: rgba(26, 141, 194, 0.23);
+    color: #1a8dc2;
+
+}

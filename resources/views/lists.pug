@@ -1,0 +1,106 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Lists
+  link(rel='stylesheet' href='css/bootstrap.min.css')
+  link(rel='stylesheet' href='css/estilosTwitter.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css')
+div
+  .row
+    .col-md-3.no-gutters(style='border-right: 0.2mm solid #5a6268; padding: 0%;')
+      ul.nav.flex-column
+        li.nav-item
+          img.logo(src='img/logo.png' width='20px' height='20px')
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/home.svg' width='50px' height='24px')
+            | Inicio
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/numeral.svg' width='50px' height='24px')
+            | Explorar
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/notificacion.svg' width='50px' height='24px')
+            | Notificaciones
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/mensaje.svg' width='50px' height='24px')
+            | Mensajes
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/guardado.svg' width='50px' height='24px')
+            | Guardado
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/lista.svg' width='50px' height='24px')
+            | Listas
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/profile.jpg' width='40px' height='40px' style='border-radius: 100%; padding: 5px; margin-right:3px;')
+            | Perfil
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/opciones.svg' width='50px' height='24px')
+            | M&aacute;s opciones
+        li.nav-item
+          button.btn.btn-twitter-nav Twittear
+    .col-md-5.col-sm-6(style='border-right: 0.2mm solid #5a6268;')
+      .container-fluid
+        .row(style='margin-top: 1%;')
+          .col.col-md-10
+            h4(aria-level='2')
+              font(style='vertical-align: inherit; font-weight:800; color: white') Listas
+            p(style='color: white; font-weight: 100; margin-top:-13px') @person
+          .col-md-12(style='padding: 0%; margin: 0; border-bottom: 0.2mm solid #5a6268;\
+          ')
+            .row
+              button.btn.btn-outline-secondary.col-md-4.btn-prof.owne(style='border-color: transparent;')
+                | Owned
+              button.btn.btn-outline-secondary.col-md-4.btn-prof.susc(style='border-color: transparent;')
+                | Sucribed
+              button.btn.btn-outline-secondary.col-md-4.btn-prof.memb(style='border-color: transparent;')
+                | Member
+          .col-md-12.cont1(style='padding: 5%;')
+            .container
+              .text-center
+                h5(style='color: white') You haven&rsquo;t created any Lists yet
+                p(style='color: white') When you do, it&rsquo;ll show up here.
+                button.btn.btn-primary(style='border-radius: 71px 71px 71px 71px; ') Crear una lista
+          .col-md-12.cont2(style='padding: 5%;')
+            .container
+              .text-center
+                h5(style='color: white') You haven&rsquo;t subscribed to any Lists yet
+                p(style='color: white') When you do, it&rsquo;ll show up here.
+          .col-md-12.cont3(style='padding: 5%;')
+            .container
+              .text-center
+                h5(style='color: white') You haven&rsquo;t been added to any Lists yet
+                p(style='color: white')
+                  | When you do, it&rsquo;ll show up here.When someone adds you to a List, it&rsquo;ll show up here.
+    .col-md-4.d-none.d-sm-none.d-md-block
+      .row.align-items-center
+        .col-1
+        .col-md-auto
+          #search-wrapper
+            input#search(type='search' placeholder='Buscar en Twitter')
+            i.fa.fa-search(style='height: 50px')
+        .col-1
+        .col-md-12
+          .card.sinbordefondotendencias
+            ul.list-group.list-group-flush
+              li.list-group-item.sinbordefondo
+                | Tendencias para ti
+                img.float-right.fondobotones(src='img/Engrane.svg' width='34px' height='34px')
+              li.list-group-item.sinbordefondo
+                small Tendencias M&eacute;xico
+                h5
+                  | Toro
+                  | Neza
+                p 174 mil Tweets
+script(src='js/jquery-3.3.1.min.js')
+script(src='js/listas.js')
+script(src='js/bootstrap.min.js')
+script(src='js/popper.min.js')

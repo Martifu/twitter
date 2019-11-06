@@ -19,3 +19,10 @@ Route::get('/Inicio', function (){
    return view('Inicio');
 });
 
+Route::get('/profile', function (){
+    return view('perfil');
+});
+Route::get('/lists', function (){
+    return view('lists');
+});
+
