@@ -15,7 +15,7 @@ Route::get('/base', function () {
     return view('base');
 });
 
-Route::get('/Inicio', function (){
+Route::get('/inicio', function (){
    return view('Inicio');
 });
 
