@@ -1,0 +1,148 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Twitter
+  link(rel='stylesheet' href='css/bootstrap.min.css')
+  link(rel='stylesheet' href='css/estilosTwitter.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css')
+style(type='text/css').
+  button:hover{
+  background:#173746;
+  border-radius: 0px;
+  box-shadow:0px 2px 0px #4bb8ff;
+  align:left;
+  }
+  #contenedor1{
+  width: 620px;
+  margin: auto;
+  margin-top: -1px;
+  border-color: #363f43;
+  height: 60px;
+  border-bottom: #363f43 1px solid;
+  border-width: 1px;
+  }
+  #contenedor2{
+  width: 620px;
+  margin: auto;
+  margin-top: -1px;
+  border-bottom: #363f43 1px solid;
+  height: 120px;
+  border-width: 1px;
+  }
+.container-fluid
+  .row
+    .col-md-3(style='border-right: 0.2mm solid #5a6268;')
+      ul.nav.flex-column
+        li.nav-item
+          img.logo(src='img/logo.png' width='20px' height='20px')
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/home.svg' width='50px' height='24px')
+            | Inicio
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/numeral.svg' width='50px' height='24px')
+            | Explorar
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/notificacion.svg' width='50px' height='24px')
+            | Notificaciones
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/mensaje.svg' width='50px' height='24px')
+            | Mensajes
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/guardado.svg' width='50px' height='24px')
+            | Guardado
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/lista.svg' width='50px' height='24px')
+            | Listas
+        li.nav-item
+          button.fondobotonesnavizq Perfil
+        li.nav-item
+          button.fondobotonesnavizq
+            img.colorsvg(src='img/opciones.svg' width='50px' height='24px')
+            | M&aacute;s opciones
+        li.nav-item
+          button.btn.btn-twitter-nav Twittear
+    .col-md-5.div-grid
+      .col-sm-12.div-grid
+        .card.backgroundivs
+          .card-body.backgroundivsborder(style='border-bottom: #363f43 1px solid')
+            img.float-right.fondobotones(src='img/icono.png')
+            #search-wrapper
+              input#search(style='border-radius:30px; height: 35px;' type='search' placeholder='Buscar en Twitter')
+      .col-sm-12.div-grid
+        .card.backgroundivs
+          .card-body.backgroundivsborder
+            .row
+              #contenedor1(style='')
+                button.btn(type='button' style='width: 100px; color: #4bb8ff; margin-top:-25px; height: 50px;') Para ti
+                button.btn(type='button' style='width: 95px; color: #4bb8ff;margin-top:-25px; height: 50px;') Noticias
+                button.btn(type='button' style='width: 95px; color: #4bb8ff;margin-top:-25px; height: 50px;') Deportes
+                button.btn(type='button' style='width: 95px; color:#4bb8ff;margin-top:-25px; height: 50px;') Diversi&oacute;n
+                button.btn(type='button' style='width: 140px; color:#4bb8ff;margin-top:-25px; height: 50px;') Entretenimiento
+              div(style='' id='')
+                img(src="{{asset('img/134-1344604_soccer-cristiano-ronaldo-wallpaper-and-background-ultra-hd.jpg')}}" style='width: 100%; margin-top:-30px;')
+              div(style='border-bottom: #363f43 1px solid; height: 70px; width: 620px;')
+                p(style='margin-right: 80px; margin-top: 25px;')
+                  strong Tendencia en Mexico
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px;  margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px;  margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px; margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px;  margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px;  margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px; margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px; margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px; margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px; margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              strong  Que esta pasando 
+              #contenedor2(style='')
+                p(style='color:#a4a4a4; margin-right: 80px; margin-top: 30px;') Tendencia en Mexico
+                p #AMLORenunciaya
+              .col-4
+                .row.float-right
+        .col-sm-12.div-grid
+          .card.backgroundivs
+            .card-body.backgroundivsborder
+              .row
+                .col-sm-12(style='padding: 10px')
+                  .row
+    .col-sm-3
+      .row.align-items-center
+        .col-1
+        .col-1
+        .col-md-12
+          .card.sinbordefondotendencias
+            ul.list-group.list-group-flush
+              li.list-group-item.sinbordefondo
+                | A quien seguir
+                img.float-right.fondobotones(src='img/Engrane.svg' width='34px' height='34px')
+              li.list-group-item.sinbordefondo
+                small Tendencias M&eacute;xico
+                h5 Toro Neza
+                p 174 mil Tweets
+script(src='js/bootstrap.min.js')
+script(src='js/popper.min.js')

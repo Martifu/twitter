@@ -36,3 +36,12 @@ Route::get('/register',function (){
    return view('register');
 });
 
+Route::get('/notificaciones',function (){
+   return view('notificaciones');
+});
+
+Route::get('/tendencia',function (){
+   return view('tendencia');
+});
+
+
