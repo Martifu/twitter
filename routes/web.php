@@ -19,10 +19,20 @@ Route::get('/Inicio', function (){
    return view('Inicio');
 });
 
+
 Route::get('/profile', function (){
     return view('perfil');
 });
 Route::get('/lists', function (){
     return view('lists');
+});
+
+
+Route::get('/login',function (){
+   return view('login');
+});
+
+Route::get('/register',function (){
+   return view('register');
 });
 
