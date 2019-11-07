@@ -6,6 +6,10 @@ $(document).ready(function () {
         $('.cont1').hide();
         $('.cont2').show();
         $('.cont3').hide();
+        $('.susc').css("box-shadow", "0px 2px 0px #4bb8ff");
+        $('.owne').css("box-shadow", "");
+        $('.memb').css("box-shadow", "");
+
 
     });
 
@@ -13,6 +17,9 @@ $(document).ready(function () {
         $('.cont1').show();
         $('.cont2').hide();
         $('.cont3').hide();
+        $('.owne').css("box-shadow", "0px 2px 0px #4bb8ff");
+        $('.susc').css("box-shadow", "");
+        $('.memb').css("box-shadow", "");
 
     });
 
@@ -21,6 +28,9 @@ $(document).ready(function () {
         $('.cont3').show();
         $('.cont2').hide();
         $('.cont1').hide();
+        $('.memb').css("box-shadow", "0px 2px 0px #4bb8ff");
+        $('.susc').css("box-shadow", "");
+        $('.owne').css("box-shadow", "");
 
     });
 
