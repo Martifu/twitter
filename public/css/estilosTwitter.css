@@ -47,6 +47,7 @@ body {
 .backgroundivs {
     background: transparent;
     color: white;
+
 }
 
 .backgroundivsborder {
@@ -54,10 +55,27 @@ body {
     border-right: 0.2mm solid #5a6268;
 
 }
+.backgroundivsbordermensajes {
+    border-bottom: 0.2mm solid #5a6268;
+    border-right: 0.2mm solid #5a6268;
+
+
+}
+
+.sinbordefondolistas {
+    background-color: rgb(38, 52, 66);
+    border: 0;
+    border-bottom: 0.8mm solid #5a6268;
+}
 
 .sinbordefondo {
     background-color: rgb(38, 52, 66);
     border: 0;
+}
+.sinbordefondo:hover
+{
+    border-color: rgb(38, 52, 66);
+    outline: none;
 }
 
 .sinbordefondotendencias {
@@ -77,8 +95,9 @@ body {
     color: white;
     background: transparent;
     border: 0;
-    font-weight: 700;
     padding: 3%;
+    font-weight: 700;
+
 }
 .fondobotonesnavizq:hover {
     border-radius: 80px 80px 80px 80px;
@@ -135,7 +154,7 @@ body {
     -webkit-flex-flow: row-reverse nowrap;
     -ms-flex-flow: row-reverse nowrap;
     flex-flow: row-reverse nowrap;
-    width: 350px;
+    width: 100%;
 }
 #search-wrapper #search {
     background-color: rgb(38, 52, 66);
@@ -148,7 +167,7 @@ body {
     font-weight: lighter;
     -webkit-transition: border-color .2s ease;
     transition: border-color .2s ease;
-    width: 350px;
+    width: 100%;
     height: 50px;
 }
 #search-wrapper #search + i {
