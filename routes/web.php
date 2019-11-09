@@ -19,6 +19,10 @@ Route::get('/inicio', function (){
    return view('Inicio');
 });
 
+Route::get('/guardado', function (){
+    return view('guardado');
+});
+
 
 Route::get('/profile', function (){
     return view('perfil');
