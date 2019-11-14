@@ -87,33 +87,15 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/vendor/phug/phug" />
-      <path value="$PROJECT_DIR$/vendor/phug/js-transformer-filter" />
-      <path value="$PROJECT_DIR$/vendor/js-transformer/js-transformer" />
-      <path value="$PROJECT_DIR$/vendor/kylekatarnls/stylus" />
-      <path value="$PROJECT_DIR$/vendor/kylekatarnls/less.php" />
-      <path value="$PROJECT_DIR$/vendor/kylekatarnls/coffeescript" />
-      <path value="$PROJECT_DIR$/vendor/pug/installer" />
-      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
-      <path value="$PROJECT_DIR$/vendor/gkralik/php-uglifyjs" />
-      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/uglify" />
-      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/stylus" />
-      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/react" />
-      <path value="$PROJECT_DIR$/vendor/natxet/cssmin" />
-      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/nodejs-php-fallback" />
-      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/less" />
-      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/coffeescript" />
-      <path value="$PROJECT_DIR$/vendor/bkwld/laravel-pug" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-minify" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-stylus" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-react" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-markdown" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-less" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-coffee-script" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug-assets" />
-      <path value="$PROJECT_DIR$/vendor/pug-php/pug" />
-      <path value="$PROJECT_DIR$/vendor/js-phpize/js-phpize-phug" />
-      <path value="$PROJECT_DIR$/vendor/js-phpize/js-phpize" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
